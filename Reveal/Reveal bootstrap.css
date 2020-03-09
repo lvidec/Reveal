@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+.pomakni1{
+    padding-top: 40px;
+}
+
+.Reve{
+    color: green;
+    font-size: 30px;
+}
+.al{
+    color: blue;
+    font-size: 30px;
+    margin-left: 64px;
+    margin-top: -36px;
+}
+.pomaknihome{
+    margin-right: 100px;
+}
+
+.sekcija1{
+    height: 70px;
+    background-color: white;
+}
+
+.sekcija1 h1{
+    float: left;
+    padding-top: 8px;
+    margin-left: 50px;
+}
+
+nav ul li{
+   transition: .5s;
+   float: right;
+   padding-top: 14px;
+   margin-left: 30px; 
+   list-style-type: none;
+   color: black;
+   font-size: 12px;
+}
+li:hover{
+    color: green;
+}
+
+.sekcija2{
+    background: url("img/section-bg1.jpg");
+    height: 480px;
+    color: white;
+    text-align: center;
+}
+
+.btn1{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background: blue;
+    border: blue;
+    color: white;
+    transition: 1s;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background: green;
+    border: green;
+    color: white;
+    transition: 1s;
+}
+.btn1:hover, .btn2:hover{
+    background: white;
+    color: black;
+}
+
+.malalinija{
+    width: 30px;
+    height: 4px;
+    background: green;
+}
+
+
+.odjeljak{
+    box-shadow: 5px 5px 5px grey;
+    float: left;
+    width: 100%;
+}
+
+.prvi{
+    transition: .5s;
+}
+.prvi:hover{
+    margin-top: -10px;
+}
+.drugi{
+    transition: .5s;
+}
+.drugi:hover{
+    margin-top: -10px;
+}
+.treci{
+    transition: .5s;
+}
+.treci:hover{
+    margin-top: -10px;
+}
+.cetvrti{
+    transition: .5s;
+}
+.cetvrti:hover{
+    margin-top: -10px;
+}
+
+.treci, .cetvrti{
+    margin-top: 10px;
+}
+
+.leftM2{
+    padding-top: 10px;
+    color: green;
+    float: left;
+    width: 25%;
+    font-size: 50px;
+}
+
+.rightM2{
+    float: right;
+    text-align: left;
+    width: 75%;
+}
+
+.sekcija7{
+    background: grey;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.team{
+    background:white;
+}
+.team h2{
+    text-align: center;
+    width:250px;
+    margin:0 auto;
+    margin-top:80px;
+    padding-top:50px;
+    border-bottom: 1px solid green;
+}
+.team img{
+    display:block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 735px){
+    .sekcija1{
+        display: none;
+    }
+}
